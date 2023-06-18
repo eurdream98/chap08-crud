@@ -1,0 +1,12 @@
+## server port config
+server:
+  port: 8001
+spring:
+  datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://mysql.hello-limu.shop:3306/ohgiraffers
+      username: ohgiraffers
+      password: ohgiraffers
+
+mybatis:
+  mapper-location: mappers/**/*.xml
